@@ -13,7 +13,8 @@ _Your computer must also be set up to support PDO (PHP Data Objects) and MySQL. 
 _To run the application:_
 
 * _Start your local PHP server from the web/ directory within the project folder_
-* _Start your MySQL server, and run the following commands:_
+* _Start your MySQL server, being sure to adjust the port number as needed_
+* _Import the databases included in this repository, or run the following commands:_
 <pre>
 CREATE DATABASE shoes;
 CREATE TABLE stores (id serial PRIMARY KEY, store_name VARCHAR (255));
