@@ -5,9 +5,9 @@
     * @backupStaticAttributes disabled
     */
 
-    require_once "src/Store.php"
+    require_once "src/Store.php";
 
-    $server = 'mysql:host=localhost:8889;dbname=hair_salon_test';
+    $server = 'mysql:host=localhost:8889;dbname=shoes_test';
     $username = 'root';
     $password = 'root';
     $DB = new PDO($server, $username, $password);
@@ -18,7 +18,7 @@
         function test_getStoreName()
         {
             //arrange
-            $store_name = "Payless"
+            $store_name = "Payless";
             $test_Store = new Store($store_name);
 
             //act
