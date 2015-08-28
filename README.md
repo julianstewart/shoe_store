@@ -10,13 +10,21 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Setup
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+_This project makes use of a PHP dependency manager. Full details and installation instructions can be found at <a href="https://getcomposer.org">getcomposer.org</a>._
 
-_{Leave nothing to chance! You want it to be easy for potential employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Are there other applications this app depends on?}_
+_Your computer must also be set up to support PDO (PHP Data Objects) and MySQL. There are a variety of free tools available to configure your computer, including MAMP (MacOS) and LAMP (Windows), as well as ample documentation online._
+
+_To run the application:_
+
+* _Start your local PHP server from the web/ directory within the project folder_
+* _Start your MySQL server, and run the following commands:_
+<pre>
+CREATE DATABASE shoes;
+CREATE TABLE stores (id serial PRIMARY KEY, store_name VARCHAR (255));
+CREATE TABLE brands (id serial PRIMARY KEY, brand_name VARCHAR (255));
+CREATE TABLE brands_stores (id serial PRIMARY KEY, store_id INT, brand_id INT);
+</pre>
+* _Point your browser to your localhost server_
 
 ## Technologies Used
 
