@@ -4,10 +4,6 @@
 
 #### By _**Julian Stewart**_
 
-## Description
-
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}_
-
 ## Setup
 
 _This project makes use of a PHP dependency manager. Full details and installation instructions can be found at <a href="https://getcomposer.org">getcomposer.org</a>._
@@ -28,7 +24,7 @@ CREATE TABLE brands_stores (id serial PRIMARY KEY, store_id INT, brand_id INT);
 
 ## Technologies Used
 
-_{Tell me about the languages you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_PHP, MySQL, Silex, Twig_
 
 ### Legal
 
