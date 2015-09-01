@@ -22,16 +22,15 @@
             $id = 1;
             $test_Store = new Store($store_name, $id);
 
-            //for debugging
-            var_dump($store_name);
-            var_dump($test_Store);
-            var_dump($result);
-
             //act
             $result = $test_Store->getStoreName();
 
             //assert
             $this->assertEquals($store_name, $result);
+
+            //for debugging
+            var_dump($test_Store);
+
         }
     }
 
