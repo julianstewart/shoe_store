@@ -21,6 +21,11 @@
             $store_name = "Payless";
             $test_Store = new Store($store_name);
 
+            //for debugging
+            var_dump($store_name);
+            var_dump($test_Store);
+            var_dump($result);
+
             //act
             $result = $test_Store->getStoreName();
 
