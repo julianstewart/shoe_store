@@ -19,7 +19,8 @@
         {
             //arrange
             $store_name = "Payless";
-            $test_Store = new Store($store_name);
+            $id = 1;
+            $test_Store = new Store($store_name, $id);
 
             //for debugging
             var_dump($store_name);
