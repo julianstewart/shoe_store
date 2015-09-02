@@ -1,9 +1,0 @@
-Hi Diane,
-
-Couple of things:
-
-For whatever reason, I was unable to push my DB .zip files to GitHub. Tried multiple times and different strategies but no cigar.
-
-You'll see I haven't done much. Simply put, and as you know, much of this stuff is well above my head until I catch up/reset. And unfortunately, you probably won't see the one thing that I _was_ able to accomplish (good dB structure/naming conventions) since I can't upload those files.
-
--j-
